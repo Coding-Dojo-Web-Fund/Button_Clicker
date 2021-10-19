@@ -1,3 +1,7 @@
 function signout(element){
-    element.innertext = "sign out";
+    element.innerText = "logout";
+}
+
+function hide(element){
+    element.remove();
 }
